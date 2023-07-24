@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    s='string'
+    return s[3:len(s)]+s[0:3]
+print(main('string'))

@@ -7,4 +7,7 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    # n=int(input("n ni kiriting::"))
+    s='string'
+    return s[0:n]
+print(main('string',3))

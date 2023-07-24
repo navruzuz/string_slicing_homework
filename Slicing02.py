@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    s='1string1'
+    return s[-4:len(s)]
+print(main('1string1'))

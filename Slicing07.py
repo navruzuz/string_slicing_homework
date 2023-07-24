@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    s='string'
+    return s[0:(n-1)]
+print(main('string',4))
